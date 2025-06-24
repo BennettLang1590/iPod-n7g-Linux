@@ -7,7 +7,7 @@
     images {
         kernel {
             description = "Linux kernel";
-            data = /incbin/("/linux-n7g/arch/arm/boot/zImage");
+            data = /incbin/("linux-n7g/arch/arm/boot/zImage");
             type = "kernel";
             arch = "arm";
             os = "linux";
